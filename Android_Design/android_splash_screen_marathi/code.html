@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Amhi Sevekari - Splash</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-fixed-variant": "#544600",
+              "surface": "#f9f9f9",
+              "on-primary-container": "#693800",
+              "surface-container-highest": "#e2e2e2",
+              "secondary": "#705d00",
+              "secondary-fixed-dim": "#e9c400",
+              "on-surface-variant": "#554336",
+              "inverse-primary": "#ffb77a",
+              "tertiary-container": "#e9a43c",
+              "surface-bright": "#f9f9f9",
+              "surface-dim": "#dadada",
+              "on-tertiary": "#ffffff",
+              "on-tertiary-container": "#603d00",
+              "on-background": "#1a1c1c",
+              "on-primary": "#ffffff",
+              "tertiary": "#835500",
+              "surface-container-high": "#e8e8e8",
+              "inverse-surface": "#2f3131",
+              "primary": "#8f4e00",
+              "on-secondary": "#ffffff",
+              "error-container": "#ffdad6",
+              "on-error": "#ffffff",
+              "secondary-container": "#fcd400",
+              "surface-tint": "#8f4e00",
+              "surface-container-lowest": "#ffffff",
+              "inverse-on-surface": "#f1f1f1",
+              "tertiary-fixed-dim": "#ffb954",
+              "secondary-fixed": "#ffe16d",
+              "on-primary-fixed": "#2e1500",
+              "tertiary-fixed": "#ffddb4",
+              "background": "#f9f9f9",
+              "on-secondary-container": "#6e5c00",
+              "on-primary-fixed-variant": "#6d3a00",
+              "surface-container-low": "#f3f3f3",
+              "on-error-container": "#93000a",
+              "surface-container": "#eeeeee",
+              "on-surface": "#1a1c1c",
+              "on-secondary-fixed": "#221b00",
+              "on-tertiary-fixed-variant": "#633f00",
+              "surface-variant": "#e2e2e2",
+              "primary-container": "#ff9933",
+              "primary-fixed": "#ffdcc2",
+              "outline": "#887364",
+              "primary-fixed-dim": "#ffb77a",
+              "outline-variant": "#dbc2b0",
+              "on-tertiary-fixed": "#291800",
+              "error": "#ba1a1a"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .peace-glow {
+            background: radial-gradient(circle at center, rgba(252, 212, 0, 0.15) 0%, rgba(255, 153, 51, 0) 70%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-primary-container font-body overflow-hidden">
+<!-- Splash Screen Container -->
+<main class="relative h-screen w-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#ff9933] to-[#ffb84d]">
+<!-- Subtle Spiritual Aura (Peace Header Logic) -->
+<div class="absolute inset-0 peace-glow pointer-events-none"></div>
+<!-- Background Artistic Watermark -->
+<div class="absolute bottom-[-10%] right-[-10%] opacity-10 rotate-12">
+<span class="material-symbols-outlined text-[40rem] text-white" style="font-variation-settings: 'FILL' 1;">
+                auto_awesome
+            </span>
+</div>
+<!-- Central Content Brand Cluster -->
+<div class="relative z-10 flex flex-col items-center text-center space-y-6">
+<!-- Branding Icon / Logo Anchor -->
+<div class="w-24 h-24 bg-white/20 backdrop-blur-xl rounded-full flex items-center justify-center shadow-2xl border border-white/30 mb-4">
+<span class="material-symbols-outlined text-white text-5xl" style="font-variation-settings: 'FILL' 1;">
+                    library_music
+                </span>
+</div>
+<!-- App Name (Brand Integrity) -->
+<div class="flex flex-col gap-1">
+<h1 class="font-headline text-5xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-md">
+                    आम्ही सेवेकरी
+                </h1>
+<!-- Tagline -->
+<p class="font-label text-white/90 text-lg md:text-xl font-medium tracking-wide uppercase opacity-90 mt-2">
+                    भक्तांसाठी भजन सेवा
+                </p>
+</div>
+</div>
+<!-- Material 3 Loading Indicator (Compose Style) -->
+<div class="absolute bottom-20 flex flex-col items-center gap-4">
+<div class="w-12 h-1 bg-white/20 rounded-full overflow-hidden">
+<div class="h-full w-1/3 bg-secondary-container rounded-full animate-pulse"></div>
+</div>
+<span class="text-white/60 font-label text-sm tracking-[0.2em] font-semibold">डिजिटल संकुल</span>
+</div>
+<!-- Footer Meta Text (Identity) -->
+<div class="absolute bottom-8 text-white/40 font-label text-[10px] tracking-widest">
+            V1.0.4 • भजन सेवा फाउंडेशन
+        </div>
+<!-- Ambient Saffron Glow Elements -->
+<div class="absolute top-20 left-10 w-64 h-64 bg-secondary-container/20 rounded-full blur-[100px]"></div>
+<div class="absolute bottom-40 right-10 w-48 h-48 bg-white/10 rounded-full blur-[80px]"></div>
+</main>
+<!-- Contextual Logic: Suppressing BottomNavBar and TopAppBar for Splash/Transactional Journey -->
+<!-- These components are available in the Design System but excluded here per the 'Destination Rule' -->
+</body></html>

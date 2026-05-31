@@ -1,0 +1,38 @@
+package com.rgi.amhisevikari.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val md_theme_light_primary = Color(0xFF8F4E00)
+val md_theme_light_onPrimary = Color(0xFFFFFFFF)
+val md_theme_light_primaryContainer = Color(0xFFFF9933)
+val md_theme_light_onPrimaryContainer = Color(0xFF693800)
+val md_theme_light_secondary = Color(0xFF705D00)
+val md_theme_light_onSecondary = Color(0xFFFFFFFF)
+val md_theme_light_secondaryContainer = Color(0xFFFCD400)
+val md_theme_light_onSecondaryContainer = Color(0xFF6E5C00)
+val md_theme_light_tertiary = Color(0xFF835500)
+val md_theme_light_onTertiary = Color(0xFFFFFFFF)
+val md_theme_light_tertiaryContainer = Color(0xFFE9A43C)
+val md_theme_light_onTertiaryContainer = Color(0xFF603D00)
+val md_theme_light_error = Color(0xFFBA1A1A)
+val md_theme_light_onError = Color(0xFFFFFFFF)
+val md_theme_light_errorContainer = Color(0xFFFFDAD6)
+val md_theme_light_onErrorContainer = Color(0xFF93000A)
+val md_theme_light_background = Color(0xFFF9F9F9)
+val md_theme_light_onBackground = Color(0xFF1A1C1C)
+val md_theme_light_surface = Color(0xFFF9F9F9)
+val md_theme_light_onSurface = Color(0xFF1A1C1C)
+val md_theme_light_surfaceVariant = Color(0xFFE2E2E2)
+val md_theme_light_onSurfaceVariant = Color(0xFF554336)
+val md_theme_light_outline = Color(0xFF887364)
+val md_theme_light_outlineVariant = Color(0xFFDBC2B0)
+
+// Extended Custom Color Tokens (Digital Sanctum)
+val SurfaceContainerLowest = Color(0xFFFFFFFF)
+val SurfaceContainerLow = Color(0xFFF3F3F3)
+val SurfaceContainer = Color(0xFFEEEEEE)
+val SurfaceContainerHigh = Color(0xFFE8E8E8)
+val SurfaceContainerHighest = Color(0xFFE2E2E2)
+val SaffronGlow = Color(0x1AFF9933)   // 10% alpha saffron for peace glows
+val GoldAccent = Color(0xFFFCD400)
+val DeepSaffron = Color(0xFF8F4E00)

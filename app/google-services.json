@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152656271755",
+    "project_id": "amhisevikari",
+    "storage_bucket": "amhisevikari.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152656271755:android:3f14df0291f8faad1ef78e",
+        "android_client_info": {
+          "package_name": "com.rgi.amhisevikari"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9KX9bg2dZB6dHP8iwvnY402bc5-5SbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
